@@ -16,4 +16,4 @@ if ($id) {
     $connection->addNote($_POST);
 }
 
-header('Location: index.php');
+header('Location: notes.php');
