@@ -109,7 +109,7 @@ $total_comments = $select_comments->rowCount();
 
 
 
-<?php include '../components/footer.php'; ?>
+<?php include '../components/admin_footer.php'; ?>
 
 <script src="../js/admin_script.js"></script>
 

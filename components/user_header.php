@@ -15,12 +15,10 @@ if(isset($message)){
 
    <section class="flex">
 
+      <img src="images/black_logo.png" style="width:50px; height:50px">
+   
       <a href="index.php" class="logo">EduLink</a>
 
-      <form action="search_course.php" method="post" class="search-form">
-         <input type="text" name="search_course" placeholder="search courses..." required maxlength="100">
-         <button type="submit" class="fas fa-search" name="search_course_btn"></button>
-      </form>
 
       <div class="icons">
          <div id="menu-btn" class="fas fa-bars"></div>

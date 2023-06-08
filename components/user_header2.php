@@ -14,13 +14,9 @@ if(isset($message)){
 <header class="header">
 
    <section class="flex">
-
+      <img src="images/black_logo.png" style="width:50px; height:50px">
       <a href="home.php" class="logo">EduLink</a>
 
-      <form action="search_course.php" method="post" class="search-form">
-         <input type="text" name="search_course" placeholder="search courses..." required maxlength="100">
-         <button type="submit" class="fas fa-search" name="search_course_btn"></button>
-      </form>
 
       <div class="icons">
          <div id="menu-btn" class="fas fa-bars"></div>
@@ -40,10 +36,7 @@ if(isset($message)){
          <h3><?= $fetch_profile['name']; ?></h3>
          <span>student</span>
          <a href="profile.php" class="btn">view profile</a>
-         <div class="flex-btn">
-            <a href="login.php" class="option-btn">login</a>
-            <a href="register.php" class="option-btn">register</a>
-         </div>
+         
          <a href="components/user_logout.php" onclick="return confirm('logout from this website?');" class="delete-btn">logout</a>
          <?php
             }else{
@@ -99,7 +92,7 @@ if(isset($message)){
    <nav class="navbar">
       <a href="home.php"><i class="fas fa-home"></i><span>home</span></a>
       <a href="about2.php"><i class="fas fa-question"></i><span>about us</span></a>
-      <a href="courses.php"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+      <a href="courses.php"><i class="fas fa-graduation-cap"></i><span>Features</span></a>
       <a href="contact2.php"><i class="fas fa-headset"></i><span>contact us</span></a>
    </nav>
 
