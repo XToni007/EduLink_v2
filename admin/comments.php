@@ -95,7 +95,7 @@ if(isset($_POST['delete_comment'])){
 
 
 
-<?php include '../components/footer.php'; ?>
+<?php include '../components/admin_footer.php'; ?>
 
 <script src="../js/admin_script.js"></script>
 

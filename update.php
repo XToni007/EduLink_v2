@@ -109,7 +109,7 @@ if(isset($_POST['submit'])){
 </head>
 <body>
 
-<?php include 'components/user_header.php'; ?>
+<?php include 'components/user_header2.php'; ?>
 
 <section class="form-container" style="min-height: calc(100vh - 19rem);">
 

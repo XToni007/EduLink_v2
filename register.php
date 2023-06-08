@@ -47,7 +47,7 @@ if(isset($_POST['submit'])){
          
          if($verify_user->rowCount() > 0){
             setcookie('user_id', $row['id'], time() + 60*60*24*30, '/');
-            header('location:home.php');
+            header('location:login.php');
          }
       }
    }
@@ -95,8 +95,8 @@ if(isset($_POST['submit'])){
       </div>
       <p>select pic <span>*</span></p>
       <input type="file" name="image" accept="image/*" required class="box">
-      <p class="link">already have an account? <a href="login.php">login now</a></p>
       <input type="submit" name="submit" value="register now" class="btn">
+      <p class="link">already have an account? <a href="login.php">login now</a></p>
    </form>
 
 </section>

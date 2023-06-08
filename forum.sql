@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `discussion`
 --
-
+USE forum;
 CREATE TABLE `discussion` (
   `id` int(11) NOT NULL,
   `parent_comment` varchar(500) NOT NULL,

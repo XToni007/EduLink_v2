@@ -14,13 +14,10 @@ if(isset($message)){
 <header class="header">
 
    <section class="flex">
+      <img src="../images/black_logo.png" style="width:50px; height:50px">
+      <a href="dashboard.php" class="logo">EduLink.</a>
 
-      <a href="dashboard.php" class="logo">Admin.</a>
 
-      <form action="search_page.php" method="post" class="search-form">
-         <input type="text" name="search" placeholder="search here..." required maxlength="100">
-         <button type="submit" class="fas fa-search" name="search_btn"></button>
-      </form>
 
       <div class="icons">
          <div id="menu-btn" class="fas fa-bars"></div>
@@ -40,10 +37,6 @@ if(isset($message)){
          <h3><?= $fetch_profile['name']; ?></h3>
          <span><?= $fetch_profile['profession']; ?></span>
          <a href="profile.php" class="btn">view profile</a>
-         <div class="flex-btn">
-            <a href="login.php" class="option-btn">login</a>
-            <a href="register.php" class="option-btn">register</a>
-         </div>
          <a href="../components/admin_logout.php" onclick="return confirm('logout from this website?');" class="delete-btn">logout</a>
          <?php
             }else{
